@@ -1,0 +1,144 @@
+body
+{
+padding: 0;
+margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 16px;	
+}
+
+h1,h2,h3,h4,h5,h6
+{
+ padding: 0;
+ margin: 0;
+ text-transform: uppercase;
+}
+
+ul,li
+{
+	display: block;
+}
+
+.container
+{
+width: 1170px;
+margin: 0 auto;
+}
+
+.menu li a
+{
+	
+	font-size: 16px;
+	padding-right: 30px;
+	padding-left: 0;:
+
+
+}
+.tel1
+{
+	text-decoration: none;
+	color: black;
+	padding-right: 50px;
+}
+
+.phone
+{
+padding-left: 50px;	
+}
+.cena
+{
+	text-decoration: none;
+	font-size: 14px
+	margin-left: auto;
+
+}
+.man
+{
+padding-right: 50px;		
+}
+.nav
+{
+display: flex;
+align-items: center;
+padding-top: 10px;
+}
+
+.logo
+{
+
+}
+.gav
+{
+
+display: flex;
+width: 1646px;
+background-color: #D8E3F3;
+height: 80px;
+}
+.niz
+{
+
+padding-top: 0px;
+font-size: 24px;
+display: flex;
+margin-left: 200px;
+}
+.niz li
+{
+margin-right: 110px;
+}
+.pav
+{
+margin-top: 20px;
+margin-left:235px ;
+width: 1100px;
+background-color: #E5E5E5;
+height: 600px;
+}
+.reg
+{
+	font-size: 30px;
+}
+.toy
+{
+display: flex;
+align-items: center;
+padding-top: 20px;
+margin-left: 450px;
+}
+.note
+{
+margin-right: 20px;
+}
+.a1
+{
+margin-top: 40px;
+margin-left: 325px;	
+}
+.a2
+{
+margin-top: 20px;
+margin-left: 325px;	
+}
+.robot
+{
+margin-top: 30px;
+margin-left: 275px;	
+}
+.btn
+{
+margin-top: 30px;
+margin-left: 405px;		
+display: block;
+font-size: 18px;
+color: white;
+text-align: center;
+letter-spacing: 0.1em;
+padding: 17px 47px;
+background:green ;
+width: 238px;
+}
+.btn:hover
+{
+	color: black;
+}
