@@ -1,0 +1,173 @@
+body
+{
+padding: 0;
+margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 16px;	
+}	
+
+
+ul,li
+{
+	display: block;
+}
+b
+{
+	white-space: nowrap;
+	font-weight: normal;
+
+}
+.container
+{
+padding-left: 80px;
+width: 1170px;
+margin: 0 auto;
+}
+
+.menu li a
+{
+	
+	font-size: 16px;
+	padding-right: 30px;
+	padding-left: 0;
+
+}
+.tel1
+{
+	text-decoration: none;
+	color: black;
+	padding-right: 50px;
+}
+
+.phone
+{
+padding-left: 50px;	
+}
+.cena
+{
+	text-decoration: none;
+	font-size: 20px
+	margin-left: auto;
+	font-weight: bold;
+
+}
+.man
+{
+padding-right: 50px;		
+}
+.nav
+{
+display: flex;
+align-items: center;
+padding-top: 10px;
+}
+
+.logo
+{
+
+}
+.gav
+{
+padding-left: 72px;
+display: flex;
+width: auto;
+background-color: #D8E3F3;
+height: 80px;
+}
+.niz
+{
+
+padding-top: 0px;
+font-size: 24px;
+display: flex;
+margin-left: 0px; /* ширина */
+}
+.niz li
+{
+margin-right: 110px;
+}
+
+.about1
+{
+
+}
+
+.parts
+{
+display: flex;
+}
+
+.part1
+{
+	padding-left: 105px;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+
+.part2
+{
+padding-top: 22px;
+}
+
+
+
+.part3
+{
+	padding-top: 22px;
+	margin-left: -60px;
+}
+
+.p2
+{
+padding-bottom: 32px;
+}
+
+.p4
+{
+padding-bottom: 32px;
+}
+
+.stroka
+{
+padding-top: 10px;
+display: flex;
+align-items: center;
+padding-bottom: 10px;
+}
+
+.hr1
+{
+	margin-left: 103px;
+	opacity: 0.5;
+}
+.hr2
+{
+	margin-right: 75px;
+	opacity: 0.5;
+}
+
+a2
+{
+	font-weight: italics;
+	font-size: 24px;
+}
+
+.izo
+{
+	margin-bottom: 50px;
+	display: flex;
+	padding-left: 100px;
+}
+.s1
+{
+ padding-right: 110px;
+}
+.s2
+{
+ padding-right: 110px;
+}
+.s3
+{
+ padding-right: 110px;
+}
