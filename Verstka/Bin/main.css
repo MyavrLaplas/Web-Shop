@@ -1,0 +1,333 @@
+body
+{
+padding: 0;
+margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 16px;	
+}	
+
+
+ul,li
+{
+	display: block;
+}
+b
+{
+	white-space: nowrap;
+	font-weight: normal;
+
+}
+.container
+{
+padding-left: 80px;
+width: 1170px;
+margin: 0 auto;
+}
+
+.menu li a
+{
+	
+	font-size: 16px;
+	padding-right: 30px;
+	padding-left: 0;
+
+}
+.tel1
+{
+	text-decoration: none;
+	color: black;
+	padding-right: 50px;
+}
+
+.phone
+{
+padding-left: 50px;	
+}
+.cena
+{
+	text-decoration: none;
+	font-size: 20px
+	margin-left: auto;
+	font-weight: bold;
+
+}
+.man
+{
+padding-right: 50px;		
+}
+.nav
+{
+display: flex;
+align-items: center;
+padding-top: 10px;
+}
+
+.logo
+{
+
+}
+.gav
+{
+padding-left: 95px;
+display: flex;
+width: auto;
+background-color: #D8E3F3;
+height: 80px;
+}
+.niz
+{
+
+padding-top: 0px;
+font-size: 24px;
+display: flex;
+margin-left: 40px; /* ширина */
+}
+.niz li
+{
+margin-right: 110px;
+}
+	/*Шапка!!!!!!!!!!!!!!!!!*/
+
+.about1
+{
+padding-top: 5px;
+}
+.of
+{
+padding-left: 173px;
+}
+.oform
+{
+font-size: 24px;
+font-weight: bold;
+}
+.parts
+{
+display: flex;
+margin-top: 5px;
+}
+.part1
+{
+
+margin-left:175px;
+height: 580px;
+width: 750px;
+border: 1px solid; grey;
+margin-bottom: 30px;
+}
+a2
+{
+	font-size: 18px;
+	color: #178D04;
+	white-space: nowrap;
+	font-weight: normal;
+}
+a3
+{
+	font-size: 18px;
+	color: #BA9898;
+	padding-left: 431px;
+}
+.inf
+{
+padding-top: 5px;
+padding-left: 48px;
+display: flex;
+align-items: center;
+}
+.stroka1,.stroka2, .stroka3, .stroka4
+{
+display: flex;
+align-items: center;
+padding-top: 20px;
+}
+.flower1
+{
+padding-left: 50px;
+padding-right: 50px;
+}
+a4
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 50px;
+}
+.bin1
+{
+padding-right: 50px;
+}
+a5
+{
+	font-size: 40px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+a6
+{
+	font-size: 25px;
+	font-weight: bold;
+	padding-right: 10px;
+}
+a7
+{
+	font-size: 25px;
+	font-weight: bold;
+	padding-right: 60px;
+}
+a8
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+a9
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 70px;
+}
+a10
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 125px;
+}
+a11
+{
+	font-size: 18px;
+	font-weight: bold;
+	padding-right: 73px;
+}
+
+
+
+
+.part2
+{
+margin-left:15px;
+height: 500px;
+width: 340px;
+border: 1px solid; grey;
+}
+
+.vash
+{
+padding-top: 10px;
+padding-left:15px;
+}
+a12
+{
+color: #25C23E;
+font-size: 25px;
+font-weight: bold;
+}
+.tovar8
+{
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.a13
+{
+padding-left: 15px;
+font-size: 20px;
+padding-right: 140px;
+}
+.a14
+{
+font-size: 20px;
+}
+
+
+.skidka
+{
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+}
+.a15
+{
+padding-left: 15px;
+font-size: 20px;
+padding-right: 213px;
+}
+.a16
+{
+font-size: 20px;
+}
+
+.promo
+{
+margin-top: 20px;
+margin-left:15px;
+height: 30px;
+width: 310px;
+border: 1px solid; grey;
+opacity: 0.6;
+
+}
+.a17
+{
+padding-left:95px;
+font-size: 25px;	
+opacity: 0.5;
+}
+
+.itogo
+{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: center;
+}
+.a18
+{
+font-weight: bold;
+padding-left: 15px;
+font-size: 30px;
+padding-right: 130px;
+}
+.a19
+{
+font-weight: bold;
+font-size: 30px;
+}
+
+.a20
+{
+
+font-weight: italics;
+font-size: 20px;
+padding-top: 10px;
+}
+
+.text
+{
+padding: 0;
+margin-left: 20px;
+width: 300px;
+padding-top: 10px;
+text-align: center;
+}
+
+.btn
+{
+margin-top: 20px;
+margin-left: 15px;		
+display: block;
+font-size: 25px;
+color: #FFFFFF;
+text-align: center;
+letter-spacing: 0.1em;
+padding: 17px 47px;
+background: #3EE258 ;
+width: 215px;
+transition: all 0.7s ease;
+}
+.btn:hover
+{
+	color: black;
+	background: #FFFFFF;
+	border: 0.5px solid black;
+
+}
