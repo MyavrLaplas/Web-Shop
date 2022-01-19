@@ -1,0 +1,169 @@
+body
+{
+padding: 0;
+margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 16px;	
+}
+.container
+{
+	display: flex;
+	align-items: center;
+	padding-left: 125px;
+	padding-top: 10px;
+}
+.logo
+{
+	padding-right: 30px;
+}
+.a1
+{
+ padding-right: 30px;
+}
+.poisk
+{
+	padding-right: 50px;
+}
+.tel1
+{
+	padding-right: 30px;
+}
+.man
+{
+	padding-right: 30px;
+}
+.bin
+{
+	padding-right: 30px;
+}
+.gav
+{
+background-color: #D8E3F3;
+height: 80px;
+width: 1301px;
+}
+.niz
+{
+display: flex;
+font-size: 24px;
+padding-left: 125px;
+padding-top: 23px;
+white-space: nowrap;
+}
+.a2
+{
+padding-right: 100px;
+}
+
+
+/*Шапка!!!!!!!!!!!!!!!!!*//*Шапка!!!!!!!!!!!!!!!!!*//*Шапка!!!!!!!!!!!!!!!!!*/
+
+.a5
+{
+	padding-left: 125px;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+.parts
+{
+	display: flex;
+}
+.sleva
+{
+	padding-left: 125px;
+	padding-right: 20px;
+}
+.a7
+{
+height: 35px;
+width: 213px;
+border: 1px solid; grey;
+padding-left: 15px;
+padding-top: 10px;
+font-size: 18px;
+background-color: #fafafa;
+font-weight: bold;
+}
+.a8
+{
+height: 35px;
+width: 213px;
+border: 1px solid; grey; 
+padding-left: 15px;
+padding-top: 10px;
+font-size: 18px;
+}
+
+.line
+{
+height: 560px;
+width: 790px;
+border: 1px solid; grey;
+margin-bottom: 50px;
+}
+.photo
+{
+	padding-left: 330px;
+	padding-top: 30px;
+}
+.text
+{
+	padding-top: 170px;
+	padding-left: 30px;
+}
+.a9
+{
+	font-size: 15px;
+	opacity: 0.7;
+	padding-bottom: 10px;
+}
+.a10
+{
+height: 35px;
+width: 350px;
+border: 1px solid; grey;
+font-size: 18px;
+padding-top: 10px;
+background-color: #fafafa;
+padding-left: 10px;
+margin-right: 5px;
+margin-bottom: 15px;
+}
+.l1
+{
+	display: flex;
+	align-items: center;
+}
+.a11
+{
+	opacity: 0.6;
+	font-size: 12px;
+	width: 350px;
+}
+
+.btn
+{
+margin-top: 20px;
+margin-left: 57px;
+padding-top: 10px;		
+display: block;
+font-size: 20px;
+color: #FFFFFF;
+text-align: center;
+letter-spacing: 0.1em;
+background: rgb(0, 175, 86) ;
+width: 300px;
+height: 35px;
+
+
+transition: all 0.7s ease;
+}
+.btn:hover
+{
+	color: black;
+	background: #FFFFFF;
+	border: 0.5px solid black;
+
+}
