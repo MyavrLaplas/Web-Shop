@@ -5,7 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Main</title>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/main.css">  
+	<link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 	<header id="header" class="header">
@@ -109,6 +110,11 @@
 	<img src="img/s4.svg" class="s4" width="200" height="200">
 	</div>
 
-
+	<script src='snowfall.js'></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(document).snowfall({image :"img/snow3.png", minSize: 15, maxSize:30});
+        });
+    </script>
 </body>
 </html>
