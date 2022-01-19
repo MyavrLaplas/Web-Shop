@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Personal</title>
+	<link rel="stylesheet" href="css/main.css"> 
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+  var total_pics_num = 4; // колличество изображений
+  var interval = 1000;    // задержка между изображениями
+  var time_out = 1;       // задержка смены изображений
+  var i = 0;
+  var timeout;
+  var opacity = 100;
+  function fade_to_next() {
+    opacity--;
+    var k = i + 1;
+    var image_now = 'image_' + i;
+    if (i == total_pics_num) k = 1;
+    var image_next = 'image_' + k;
+    document.getElementById(image_now).style.opacity = opacity/100;
+    document.getElementById(image_now).style.filter = 'alpha(opacity='+ opacity +')';
+    document.getElementById(image_next).style.opacity = (100-opacity)/100;
+    document.getElementById(image_next).style.filter = 'alpha(opacity='+ (100-opacity) +')';
+    timeout = setTimeout("fade_to_next()",time_out);
+    if (opacity==1) {
+      opacity = 100;
+      clearTimeout(timeout);
+    }
+  }
+  setInterval (
+    function() {
+      i++;
+      if (i > total_pics_num) i=1;
+      fade_to_next();
+    }, interval
+  );
+</script>
+
+</head>
+<body>
+<header id="header" class="header">
+	<div class="container">
+		<img src="img/logo.svg" class="logo" alt="Siberian Garden" width="60" height="60">
+		<div class="a1"> Siberian <br> Garden </div>
+		<img src="img/poisk.png" class="poisk" >
+		<img src="img/phone.svg" class="phone">
+		<a2 href="tel:+7 (963) 232-74-43" class="tel1">
+		+7 (963) 232-74-43 <br> +7 (953) 433-64-78
+		</a2>
+		<img src="img/man.svg" class="man" width="60" height="60">
+		<img src="img/bin.png" class="bin" width="60" height="60">
+		<div class="cena"> 0 р. </div>
+	</div>
+	</header>
+	<section id="about" class="about">
+	<div class="gav">
+			<div class="niz">
+			<div class="a2">
+				О нас
+			</div>	
+			<div class="a2">
+				Доставка
+			</div>	
+			<div class="a2">
+				Акции
+			</div>	
+			<div class="a2">
+				Новинки
+			</div>	
+			<div class="a2">
+				Контакты
+			</div>	
+			<div class="a3">
+				Отзывы
+			</div>	
+		</div>
+	</div>
+	</section>
+
+
+<title>Шапка!!!!!!!!!!!!!!!!!</title><title>Шапка!!!!!!!!!!!!!!!!!</title>
+
+<div class="a5">Профиль пользователя</div>
+
+<div class="parts">
+
+
+	<div class="sleva">
+		<div class="a8">Мой кабинет</div>
+		<div class="a8">Текущие заказы</div>
+		<div class="a7">Личные данные</div>
+		<div class="a8">Сменить пароль</div>
+		<div class="a8">Архив заказов</div>
+		<div class="a8">Корзина</div>
+		<div class="a8">Подписки</div>
+		<div class="a8">Опросы</div>
+		<div class="a8">Контакты</div>
+		<div class="a8">Отзывы</div>
+		<div class="a8">< Выйти</div>
+	</div>
+
+	<div class="line"> 
+
+ 	<div class="photo"> 
+	<img src='img/p1.jpg' height="150" width="150" id="image_1" style="position: absolute;" />
+
+  <img src='img/p2.jpg' height="150" width="150" id="image_2" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+
+  <img src='img/p3.jpg' height="150" width="150" id="image_3" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+
+  <img src='img/p4.jpg' height="150" width="150" id="image_4" style="opacity: 0; filter: alpha(opacity=0); position: absolute;" />
+	</div>
+	<div class="text"> 
+	<div class="a9">Фамилия Имя Отчество *</div>
+	<div class="l1">
+	<div class="a10">Бородина Эльвира Валерьевна</div>
+	<div class="a11">Заполните, чтобы мы знали, как к вам обращаться</div>
+	</div>
+
+	<div class="a9">E-mail *</div>
+	<div class="l1">
+	<div class="a10">dip24@tpu.ru</div>
+	<div class="a11">Для отправки уведомлений о статусе заказа. Используйте как логин для входа в личный кабинет</div>
+	</div>
+
+	<div class="a9">Телефон *</div>
+	<div class="l1">
+	<div class="a10">7 (960) 953-45-34</div>
+	<div class="a11">Необходим для уточнения деталей заказа</div>
+	</div>
+
+	</div>
+
+	<o href="#" class="btn">
+			Сохранить изменения
+		</o>
+
+	</div>
+
+
+</div>
+</body>
+</html>
