@@ -1,0 +1,166 @@
+body
+{
+padding: 0;
+margin: 0;
+	font-family: 'Roboto', sans-serif;
+	color: black;
+	font-size: 16px;	
+}
+.container
+{
+	display: flex;
+	align-items: center;
+	padding-left: 125px;
+	padding-top: 10px;
+}
+.logo
+{
+	padding-right: 30px;
+}
+.a1
+{
+ padding-right: 30px;
+}
+.poisk
+{
+	padding-right: 50px;
+}
+.tel1
+{
+	padding-right: 30px;
+}
+.man
+{
+	padding-right: 30px;
+}
+.bin
+{
+	padding-right: 30px;
+}
+.gav
+{
+background-color: #D8E3F3;
+height: 80px;
+width: 1301px;
+}
+.niz
+{
+display: flex;
+font-size: 24px;
+padding-left: 125px;
+padding-top: 23px;
+white-space: nowrap;
+}
+.a2
+{
+padding-right: 100px;
+}
+
+
+/*Шапка!!!!!!!!!!!!!!!!!*//*Шапка!!!!!!!!!!!!!!!!!*//*Шапка!!!!!!!!!!!!!!!!!*/
+.a5
+{
+	padding-left: 125px;
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 40px;
+}
+.parts
+{
+	display: flex;
+}
+.sleva
+{
+	padding-left: 125px;
+	padding-right: 20px;
+}
+.a7
+{
+height: 35px;
+width: 213px;
+border: 1px solid; grey;
+padding-left: 15px;
+padding-top: 10px;
+font-size: 18px;
+background-color: #fafafa;
+font-weight: bold;
+}
+.a8
+{
+height: 35px;
+width: 213px;
+border: 1px solid; grey; 
+padding-left: 15px;
+padding-top: 10px;
+font-size: 18px;
+}
+.line1
+{
+	display: inline-grid;
+	padding-right: 20px;
+}
+.line2
+{
+	display: inline-grid;
+	padding-right: 20px;
+}
+.line3
+{
+	display: inline-grid;
+}
+.btn1
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.btn2
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.btn3
+{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+.btn4
+{
+	font-size: 20px;
+}
+
+.btn5
+{
+	font-size: 20px;
+}
+
+.btn6
+{
+	margin-top: -250px;
+	font-size: 20px;
+}
+
+.btn7
+{
+	margin-top: -250px;
+	font-size: 20px;
+}
+
+.btn8
+{
+	font-size: 20px;
+}
+
+.btn9
+{
+	font-size: 20px;
+	margin-top: -250px;
+}
+
+.btn10
+{
+	font-size: 20px;
+	margin-top: -250px;
+}
